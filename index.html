@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css">
+    <title>LoveCalulator</title>
+</head>
+<body>
+    <div id="testata">
+        <h1> Calcola quanto ti amo! </h1>
+    </div>
+    <div id = "corpo">
+        <p> Quanto mi ami ?? </p>
+        <div class="slidecontainer">
+            <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+            
+        </div>
+        <div>
+            <p id="demo"> </p> 
+            <button id="lock-slider" class="button"><span> Fatto </span></button>
+            <div id="loading">
+                <div class="lds-heart"><div></div></div>
+                <p> Calcolando il mio amore...</p>
+            </div>
+            <div id="hidden">
+                <span id = "result">
+                    <p id="testo">Ecco quanto ti amo io!</br>(più di te)</p>
+                    <p id="valore-mio"> x </p>
+                </span>
+                <button id="riprova" class="button"><span> Riprova </span></button>
+            </div>
+        </div>
+        
+    </div>
+    
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
